@@ -1,0 +1,39 @@
+{
+  "name": "rescript-use-postcss-config",
+  "version": "1.0.0",
+  "description": "Use your own PostCSS configuration in Create React App",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "jsxtools/rescript-use-postcss-config",
+  "homepage": "https://github.com/jsxtools/rescript-use-postcss-config#readme",
+  "bugs": "https://github.com/jsxtools/rescript-use-postcss-config/issues",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "eslint index.js --cache --ignore-path .gitignore --resolve-plugins-relative-to node_modules"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  },
+  "peerDependencies": {
+    "postcss-load-config": "^2"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 10,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "impliedStrict": true
+      }
+    }
+  },
+  "dependencies": {
+    "postcss-load-config": "^2.1.0"
+  }
+}
